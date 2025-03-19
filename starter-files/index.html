@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+    <title>Travel Planer</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="logo4.png"
+        style="background-color: #292524)"
+        height="100"
+        width="100"
+        alt="Travel Planer"
+      />
+      <h1>Welcome in Travel Planer!</h1>
+      <button>Dodaj Koszt</button>
+    </header>
+    <form class="fact-form">
+      <input type="text" placeholder="Podaj nazwę kosztu" />
+      <span>200</span>
+      <input type="number" placeholder="Podaj planowy koszt" />
+      <input type="number" placeholder="Podaj kwotę rzeczywistą" />
+      <input type="checkbox" placeholder="Czy opłacone?" />
+      <input type="datetime" placeholder="Podaj datę opłaty" />
+      <input type="text" placeholder="Kto opłacił" />
+      <span>200</span>
+      <input type="text" placeholder="Kto zwraca pieniądze" />
+      <span>200</span>
+      <input type="checkbox" placeholder="Zwrot dokonany" />
+      <select>
+        <option value="">Wybierz kategorię:</option>
+        <option value="Transport">Transport</option>
+        <option value="Nocleg">Nocleg</option>
+        <option value="Wejściówki">Wejściówki</option>
+        <option value="Zakupy">Zakupy</option>
+        <option value="Kantor">Kantor</option>
+        <option value="Jedzenie">Jedzenie</option>
+        <option value="Napiwki">Napiwki</option>
+        <option value="Inne">Inne</option>
+      </select>
+      <button>Dodaj</button>
+    </form>
+    <main>
+      <aside>
+        <ul>
+          <li>
+            <button>All</button>
+          </li>
+          <li>
+            <button>Transport</button>
+          </li>
+          <li>
+            <button>Nocleg</button>
+          </li>
+          <li>
+            <button>Wejściówki</button>
+          </li>
+          <li>
+            <button>Zakupy</button>
+          </li>
+          <li>
+            <button>Kantor</button>
+          </li>
+          <li>
+            <button>Jedzenie</button>
+          </li>
+          <li>
+            <button>Napiwki</button>
+          </li>
+          <li>
+            <button>Inne</button>
+          </li>
+        </ul>
+      </aside>
+      <section>
+        <ul>
+          <li class="fact">
+            <p>
+              Bilety Lotnicze
+              <a href="https://www.onet.pl" target="_blank">(Source)</a>
+              <span class="tag" style="background-color: #3b82f6"
+                >#transport#</span
+              >
+            </p>
+            <div>
+              <button>💵 <strong>Opłacone</strong></button>
+              <button>⏱️ <strong>Wstrzymane</strong></button>
+              <button>🔒 <strong>Rozliczone</strong></button>
+            </div>
+          </li>
+        </ul>
+        <ul>
+          <li class="fact">
+            <p>
+              Parking przy lotnisku
+              <a href="https://www.onet.pl" target="_blank">(Source)</a>
+              <span class="tag" style="background-color: #3b82f6"
+                >#transport#</span
+              >
+            </p>
+            <div>
+              <button>💵 <strong>Opłacone</strong></button>
+              <button>⏱️ <strong>Wstrzymane</strong></button>
+              <button>🔒 <strong>Rozliczone</strong></button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
